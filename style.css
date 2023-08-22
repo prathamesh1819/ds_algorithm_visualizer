@@ -1,0 +1,327 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container
+{
+     display: grid;
+     grid-gap: 1rem;
+     grid-template-areas: 
+     'worktab worktab worktab worktab'
+     'worktab worktab worktab worktab'
+     'worktab worktab worktab worktab'
+     'worktab worktab worktab worktab'
+     'worktab worktab worktab worktab'
+     'worktab worktab worktab worktab'
+     'worktab worktab worktab worktab'
+     'worktab worktab worktab worktab'
+     'worktab worktab worktab worktab'
+     'worktab worktab worktab worktab'
+     'worktab worktab worktab worktab'
+     'worktab worktab worktab worktab'
+     'worktab worktab worktab worktab'
+     'worktab worktab worktab worktab'
+     'worktab worktab worktab worktab'
+     'worktab worktab worktab worktab'
+     'worktab worktab worktab worktab'
+     'worktab worktab worktab worktab'
+     'worktab worktab worktab worktab'
+     'worktab worktab worktab worktab'
+     'worktab worktab worktab worktab'
+     'worktab worktab worktab worktab'
+     'worktab worktab worktab worktab'
+     'worktab worktab worktab worktab'
+     'worktab worktab worktab worktab'
+     'worktab worktab worktab worktab'
+     'worktab worktab worktab worktab'
+     'worktab worktab worktab worktab'
+     'worktab worktab worktab worktab'
+     'worktab worktab worktab worktab'
+     'console console console2 console2'
+     'console console console2 console2'
+     'console console console2 console2'
+     'console console console2 console2'
+     'console console console2 console2'
+     'console console console2 console2'
+     'console console console2 console2'
+     'console console console2 console2'
+     'console console console2 console2'
+     'console console console2 console2'
+     'console console console2 console2'
+     'console console console2 console2'
+     'console console console2 console2'
+     'console console console2 console2'
+     'console console console2 console2'
+     'console console console2 console2'
+     'console console console2 console2'
+     'console console console2 console2'
+  
+     ;
+}
+
+.box
+{
+    background-color: mediumvioletred;
+    padding: 20px
+    
+
+}
+
+#worktab
+{
+   grid-area: worktab;
+   display: flex;
+   background-color: lightseagreen;
+   
+
+}
+
+#heading
+{ 
+    position: fixed;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    top:20px;
+
+}
+
+.allocation
+{
+    display: flex;
+    margin: auto;
+    text-align: center;
+}
+
+
+.array
+{
+    display: flex;
+}
+
+.array ul 
+{
+          width: 70px;
+          height: 70px;
+          padding: 5px;
+          background-color: aliceblue;
+          border: 2px solid black;
+          display: flex;
+}
+
+.array ul li
+{
+    list-style-type: none;
+    margin: auto;
+}
+
+.array ul li h5
+{
+    display: none;
+}
+
+
+/*update array*/
+
+
+.array2
+{
+    display: flex;
+}
+
+.array2 ul 
+{
+          width: 70px;
+          height: 70px;
+          padding: 5px;
+          background-color: aliceblue;
+          border: 2px solid black;
+          display: flex;
+}
+
+.array2 ul li
+{
+    list-style-type: none;
+    margin: auto;
+}
+
+.array2 ul li h5
+{
+    display: none;
+}
+
+
+
+
+
+
+#one, #two, #three, #four, #five, #six, #seven, #eight, #nine, #ten
+{
+   display: none;
+}
+
+
+
+#console
+{
+    grid-area: console;
+    background-color: rgb(38, 244, 182);
+   
+}
+
+#console2
+{
+
+    grid-area: console2;
+    background-color: rgb(42, 228, 126);
+
+}
+
+#arraysize, #arraysize2
+{
+    border: 2px solid black;
+}
+
+
+
+
+#btns
+{
+
+    gap: 0.5rem;
+    display: flex;
+
+  
+}
+
+#ele1
+{
+    align-items: center;
+}
+
+#sub1, #sub3
+{
+    background-color: blue;
+    color: beige;
+    width: 60px;
+    border: 2px solid black;
+    border-radius: 3px;
+}
+
+
+#sub1:hover
+{
+    transform: scale(1.05);
+}
+
+
+#sub3:hover
+{
+    transform: scale(1.05);
+}
+
+#sub2, #sub4
+{
+    background-color: rgb(236, 37, 56);
+    color: beige;
+    width: 60px;
+    border: 2px solid black;
+    border-radius: 3px;
+}
+
+
+#sub2:hover
+{
+    transform: scale(1.05);
+}
+
+
+#sub4:hover
+{
+    transform: scale(1.05);
+}
+
+
+
+#ele1, #ele2, #ele3, #ele4, #ele5, #ele6, #ele7, #ele8, #ele9, #ele10
+{
+   display: none;
+   width: 70px;
+   height: 30px;
+   align-items: center;
+   margin: auto;
+   background-color: rgb(2, 54, 63);
+   border-radius: 4px;
+   border: none;
+   color: rgb(255, 255, 255);
+   
+   
+}
+
+#ele1:hover, #ele2:hover, #ele3:hover, #ele4:hover, #ele5:hover, #ele6:hover, #ele7:hover, #ele8:hover, #ele9:hover, #ele10:hover
+{
+    transform: scale(1.05);
+}
+
+#btns2
+{
+    
+    gap: 0.5rem;
+    display: flex; 
+}
+
+#dele1, #dele2, #dele3, #dele4, #dele5, #dele6, #dele7, #dele8, #dele9, #dele10
+{
+   display: none;
+   width: 70px;
+   height: 30px;
+   align-items: center;
+   margin: auto;
+   background-color: rgb(4, 77, 24);
+   border-radius: 4px;
+   border: none;
+   color: rgb(255, 255, 255);
+}
+
+#dele1:hover, #dele2:hover, #dele3:hover, #dele4:hover, #dele5:hover, #dele6:hover, #dele7:hover, #dele8:hover, #dele9:hover, #dele10:hover
+{
+    transform: scale(1.05);
+}
+
+
+h6
+{
+    
+   position:relative;
+   text-align: center;
+   top: -25px;
+   right: -33px;
+   font-size: 12px;
+}
+
+#alert1, #alert2
+{
+    display: none;
+}
+
+h4
+{
+    position:relative;
+    text-align: center;
+    top: 80px;
+    right: 10px;
+    
+}
+
+#addr1, #addr2, #addr3, #addr4, #addr5
+{
+    display: none;
+}
+
+h5
+{ 
+    position: relative;
+    text-align: center;
+    left: 19px;
+}

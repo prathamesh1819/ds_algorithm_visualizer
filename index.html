@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+
+
+        <div id="worktab" class="box">
+
+            <div id="heading">
+                <h2>Memory Allocation:</h2>
+            </div>
+
+            <div class="allocation">
+
+
+
+                <div class="array">
+                    
+                    <ul id="one">
+                          <h6>0</h6>
+                          
+                        
+                        <li>
+                            <h5 id="e1"> </h5>
+                        </li>
+
+                        <h4 id="addr1">1111</h4>
+                          
+
+                    </ul>
+                    
+                    <ul id="two">
+                        <h6>1</h6>
+                        
+                        <li>
+                            <h5 id="e2"> </h5>
+                        </li>
+                        <h4 id="addr2">1111</h4>
+                    </ul>
+
+                    <ul id="three">
+                        <h6>2</h6>
+                        <li>
+                            <h5 id="e3"> </h5>
+                        </li>
+                        <h4 id="addr3">1112</h4>
+                    </ul>
+
+                    <ul id="four">
+                        <h6>3</h6>
+                        <li>
+                            <h5 id="e4"> </h5>
+                        </li>
+                        <h4 id="addr4">1113</h4>
+                    </ul>
+
+                    <ul id="five">
+                        <h6>4</h6>
+                        <li>
+                            <h5 id="e5"> </h5>
+                        </li>
+                        <h4 id="addr5">1114</h4>
+                    </ul>
+
+                    <ul id="six">
+                        <h6>5</h6>
+                        <li>
+                            <h5 id="e6"> </h5>
+                        </li>
+                        <h4 id="addr5">1115</h4>
+                    </ul>
+
+                    <ul id="seven">
+                        <h6>6</h6>
+                        <li>
+                            <h5 id="e7"> </h5>
+                        </li>
+                    </ul>
+
+                    <ul id="eight">
+                        <h6>7</h6>
+                        <li>
+                            <h5 id="e8"> </h5>
+                        </li>
+                    </ul>
+
+                    <ul id="nine">
+                        <h6>8</h6>
+                        <li>
+                            <h5 id="e9"> </h5>
+                        </li>
+                    </ul>
+
+                    <ul id="ten">
+                        <h6>9</h6>
+                        <li>
+                            <h5 id="e10"> </h5>
+                        </li>
+                    </ul>
+
+                </div>
+
+
+
+            </div>
+
+
+
+        </div>
+
+
+
+        <div id="console" class="box">
+
+            <div id="array">
+
+                <h3>Enter size of the array: (size : 1-5)</h3> <br>
+
+                <input type="number" placeholder="Enter size" id="arraysize">
+
+                <button onclick="getVal()" id="sub1">Submit</button>
+
+                <a href="index.html"><button id="sub2">Clear</button></a>
+
+                <br><br>
+
+            </div>
+
+
+
+            <div id="poster">
+                <br>
+            </div>
+
+
+
+
+
+            <h3 id="alert1">Enter elements one by one:</h3>
+
+
+            <br>
+
+            <div id="btns">
+
+
+
+                <button onclick="get1()" id="ele1">Enter a[0]</button>
+                <button onclick="get2()" id="ele2">Enter a[1]</button>
+                <button onclick="get3()" id="ele3">Enter a[2]</button>
+                <button onclick="get4()" id="ele4">Enter a[3]</button>
+                <button onclick="get5()" id="ele5">Enter a[4]</button><br><br>
+                <button onclick="get6()" id="ele6">Enter a[5]</button>
+                <button onclick="get7()" id="ele7">Enter a[6]</button>
+                <button onclick="get8()" id="ele8">Enter a[7]</button>
+                <button onclick="get9()" id="ele9">Enter a[8]</button>
+                <button onclick="get10()" id="ele10">Enter a[9]</button><br>
+
+            </div>
+
+            <br>
+
+
+        </div>
+
+        <div id="console2" class="box">
+
+
+
+
+            <div id="array2">
+
+                <h3>Update size of the array:</h3> <br>
+
+                <input type="number" placeholder="Enter size" id="arraysize2" onkeypress="ersSize()">
+
+                <button onclick="getVal()" id="sub3">Submit</button>
+
+                <a href="index.html"><button id="sub4">Clear</button></a>
+
+                <br><br>
+
+            </div>
+
+
+
+            <div id="poster2">
+                <br>
+            </div>
+
+
+            
+            <h3 id="alert2">Delete elements one by one:</h3><br>
+
+            <div id="btns2">
+
+                <button onclick="del1()" id="dele1">Delete a[0]</button>
+                <button onclick="del2()" id="dele2">Delete a[1]</button>
+                <button onclick="del3()" id="dele3">Delete a[2]</button>
+                <button onclick="del4()" id="dele4">Delete a[3]</button>
+                <button onclick="del5()" id="dele5">Delete a[4]</button><br><br>
+                <button onclick="del6()" id="dele6">Delete a[5]</button>
+                <button onclick="del7()" id="dele7">Delete a[6]</button>
+                <button onclick="del8()" id="dele8">Delete a[7]</button>
+                <button onclick="del9()" id="dele9">Delete a[8]</button>
+                <button onclick="del10()" id="dele10">Delete a[9]</button><br>
+
+            </div>
+
+        </div>
+
+
+
+
+
+
+
+    </div>
+
+
+</body>
+
+<script type="text/javascript" src="script.js"></script>
+
+</html>
